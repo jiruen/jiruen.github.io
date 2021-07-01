@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>hw07</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            margin: 0px;
+        }
+
+        header {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 3px;
+            margin-bottom: 4px;
+        }
+
+        div {
+            display: inline;
+        }
+
+        nav ol {
+            background-color: cornflowerblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 6px;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+
+        hr {
+            border: 3px solid cornflowerblue;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: teal;
+        }
+        #sitemap {
+            padding-left: 180px;
+            margin-top: 10px;
+            text-align: center;
+            /*background-color:aliceblue;*/
+            border-top: 5px solid cornflowerblue;
+        }
+
+        #sitemap div {
+            
+            height: 140px;
+            float: left;
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+
+        #sitemap h3 {
+            font-size: 20px;
+            color:teal;
+            display: inline;
+            margin-left: 28px;
+            border-bottom: 3px solid cornflowerblue;
+        }
+
+        #sitemap ul{
+            padding-left: 40px;
+            padding-right: 40px; 
+        }
+
+        #sitemap li {
+            color: whtie;
+            margin: 5px 0 0 20px;
+            list-style-type: none;
+        }
+        
+        p {
+            font-family: "맑은 고딕";
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            height: 200px;
+            margin-top: 2px;
+            padding: 0px 0 0 15px;
+            color:teal;
+            font-family: "맑은 고딕";
+            font-weight: bold;
+        }
+
+        footer #logo {
+            float: left;
+            font-size: 90px;
+        }
+
+        footer #address {
+            float: left;
+        }
+
+        footer #link {
+            float: right;
+        }
+
+        footer #company_info {
+            margin-top: 20px;
+            list-style-type: none;
+        }
+
+        footer #company_info li {
+            margin-top: 2px;
+        }
+
+        footer #copyright {
+            margin-top: 10px;
+            font-size: 11px;
+            color:#888888;
+        }
+
+        footer #link h3 {
+            font-size: 16px;
+            color:#06b5b8;
+            margin-bottom: 0px;
+        }
+
+        footer #link select {
+            margin: 0 0 0 50px;
+            width: 100px;
+            height: 18px;
+            font-size: 11px;
+        }
+
+        section {
+            height: 200px;
+            background-color:powderblue;
+            border-bottom: 3px solid cornflowerblue;
+        }
+
+        img {
+            margin-top: 10px;
+        }
+        .clear {
+            clear:both;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header><a href="./hw07.html">🌴Boracay</a></header>
+
+    <nav>
+        <center>
+            <ol>
+                <li><a href="./boracay.html">Boracay?</a></li>
+                <li> | </li>
+                <li><a href="./how_to_go.html">How To Go Boracay</a></li>
+                <li> | </li>
+                <li><a href="./restaurant.html">Restaurant</a></li>
+                <li> | </li>
+                <li><a href="./best_hotel.html">Best Hotel</a></li>
+            </ol>
+        </center>
+    </nav>
+
+    <main>
+        <center>
+            <img src="./img/boracay.jpg" width=800>
+        </center>
+
+        <p>마지막 남은 천국이라 불릴 만큼 
+            <br>때묻지 않은 자연을 지닌 휴양지인 보라카이!
+        </p>
+
+
+        <section id="sitemap">
+            <div>
+                <h3>Boracay?</h3>
+            </div>
+            <div>
+                <h3>How To Boracay</h3>
+            </div>
+            <div>
+                <h3>Restaurant</h3>
+                <ul>
+                    <li>HaloMango</li>
+                    <li>Crazy crepes</li>
+                    <li>Tito's</li>
+                    <li>Epic</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Best Hotel</h3>
+                <ul>
+                    <li>Villa Caemilla Beach</li>
+                    <li>Jony's Beach Resort</li>
+                    <li>Henann Prime Beach Resort</li>
+                    <li>Two Seasons Boracay Resort</li>
+                    <li>Boracay Mandarin Island Hotel</li>
+                </ul>
+            </div>
+        </section>
+        <div class="clear"></div>
+    </main>
+
+    <br>
+    
+        <footer>
+            <article id="logo"><a href="./hw07.html">🌴</a></article>
+            <article id="address">
+                <ul id="company_info">
+                    <li>Boracay</li>
+                    <li>주소 : 필리핀 말라이</li>
+                    <li>전화 : (02)900-1128</li>
+                    <li id="copyright">Copyright by Boracay Company All</li>
+                </ul>
+            </article>
+            <article id="link">
+                <h3>고객센터 1588-1128</h3>
+                <select>
+                    <option>네이버</option>
+                    <option>다음</option>
+                    <option>구글</option>
+                </select>
+            </article>
+        </footer>
+
+
+    <audio src="./audio/Ikson-Paradise-Royalty Free Vlog Music No Copyright.mp3" loop autoplay>
+    </audio>
+
+</body>
+
+</html>

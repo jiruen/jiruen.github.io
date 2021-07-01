@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>how to go</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            color: white;
+            margin: 0px;
+        }
+
+        header {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-size: 50px;
+            margin-top: 3px;
+            margin-bottom: 4px;
+        }
+
+        div {
+            display: inline;
+        }
+
+        nav ol {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: cornflowerblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 6px;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+
+        hr {
+            border: 3px solid cornflowerblue;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: teal;
+        }
+
+        .img {
+            float: left;
+            width: 300px;
+            margin-left: 10px;
+        }
+
+        .blue {
+            color: teal;
+        }
+
+        .total {
+            overflow: auto;
+            border-top: 5px solid teal;
+            border-bottom: 5px solid teal;
+            font-size: 18px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            display: grid;
+            grid-template-columns: 300px 170px 450px 1fr;
+            text-align: center;
+        }
+
+        .total div {
+            padding-left: 20px;
+            padding-top: 120px;
+        }
+
+        .descp {
+            color: teal;
+        }
+
+        .location {
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>boracay</title>
+    <style>
+        body {
+            background-color: lightblue;
+            color: white;
+            margin: 0px;
+        }
+
+        header {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-size: 50px;
+            margin-top: 3px;
+            margin-bottom: 4px;
+        }
+
+        div {
+            display: inline;
+        }
+
+        nav ol {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: cornflowerblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            list-style-type: none;
+            margin-top: 0px;
+            margin-bottom: 6px;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+
+        hr {
+            border: 3px solid cornflowerblue;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: teal;
+        }
+
+        .img {
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 500px;
+        }
+
+        h2 {
+            border-bottom: 5px teal solid;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        p {
+            color: teal;
+            font-weight: bold;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-left: 10px;
+            text-align: center;
+        }
+
+        .white {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .img {
+            float: left;
+            width: 400px;
+            padding-left: 50px;
+            margin-top:5px;
+        }
+
+        .blue {
+            color: teal;
+        }
+
+        .total {
+            font-weight: bold;
+            overflow: auto;
+            border-bottom: 5px solid teal;
+            font-size: 18px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            display: grid;
+            grid-template-columns: 400px 450px 150px 1fr;
+
+        }
+
+        .total div {
+            padding-left: 20px;
+            padding-top: 100px;
+        }
+
+        .location {
+            float: right;
+            width: 300px;
+            margin-right: 10px;
+            margin-top: 30px;
+        }
+
+        footer {
+            height: 200px;
+            margin-top: 2px;
+            padding: 0px 0 0 15px;
+            color:teal;
+            font-family: "맑은 고딕";
+            font-weight: bold;
+        }
+
+        footer #logo {
+            float: left;
+            font-size: 90px;
+        }
+
+        footer #address {
+            float: left;
+        }
+
+        footer #link {
+            float: right;
+        }
+
+        footer #company_info {
+            margin-top: 20px;
+            list-style-type: none;
+        }
+
+        footer #company_info li {
+            margin-top: 2px;
+        }
+
+        footer #copyright {
+            margin-top: 10px;
+            font-size: 11px;
+            color:#888888;
+        }
+
+        footer #link h3 {
+            font-size: 16px;
+            color:#06b5b8;
+            margin-bottom: 0px;
+        }
+
+        footer #link select {
+            margin: 0 0 0 50px;
+            width: 100px;
+            height: 18px;
+            font-size: 11px;
+        }
+
+        section {
+            height: 200px;
+            background-color:powderblue;
+            border-bottom: 3px solid cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header><a href="./hw07.html">🌴Boracay</a></header>
+
+    <nav>
+        <center>
+            <ol>
+                <li><a href="./boracay.html">Boracay?</a></li>
+                <li> | </li>
+                <li><a href="./how_to_go.html">How To Go Boracay</a></li>
+                <li> | </li>
+                <li><a href="./restaurant.html">Restaurant</a></li>
+                <li> | </li>
+                <li><a href="./best_hotel.html">Best Hotel</a></li>
+            </ol>
+        </center>
+    </nav>
+
+    <main>
+        <div class="total">
+            <img class="img" src="./img/boracaymandarinislandhotel.jpg">
+            <div> 보라카이 만다린 아일랜드 호텔  <br><span class="blue">Boracay Mandarin Island Hotel</span>
+                <br><br>스파 트리트먼트와 수영을 동시에,
+                <br>편히 힐링하며 즐길 수 있는 호텔
+            </div>
+            <div> 약 15 - 30만 원</div>
+            <a href="https://www.google.co.kr/maps?ie=UTF-8&q=11.9596466,121.9259722">
+            <img class="location" src="./img/location_man.PNG"></a>
+        </div>
+
+        <div id="page">
+            <footer>
+                <article id="logo"><a href="./hw07.html">🌴</a></article>
+                <article id="address">
+                    <ul id="company_info">
+                        <li>Boracay</li>
+                        <li>주소 : 필리핀 말라이</li>
+                        <li>전화 : (02)900-1128</li>
+                        <li id="copyright">Copyright by Boracay Company All</li>
+                    </ul>
+                </article>
+                <article id="link">
+                    <h3>고객센터 1588-1128</h3>
+                    <select>
+                        <option>네이버</option>
+                        <option>다음</option>
+                        <option>구글</option>
+                    </select>
+                </article>
+            </footer>
+        </div>
+</body>
+
+</html>
