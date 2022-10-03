@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<style>
+.nav {
+	font-weight: bold;
+	font-size: 18px;
+	color: #6f263d;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+}
+
+.submenu {
+	height: 0;
+	overflow: hidden;
+}
+
+.menu li {
+	width: 33.33%;
+}
+
+.submenu li {
+	width: 48%;
+	font-size: 15px;
+}
+
+.nav li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+	background-color: #fff;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	color: #6f263d;
+}
+
+.menu li a:hover {
+	background-color: #6f263d;
+	color: #fff;
+	transition-duration: 1s;
+}
+
+.menu>li:hover .submenu {
+	height: auto;
+	transition-duration: 1s;
+}
+
+</style>
+</head>
+<body>
+	<div class="nav">
+		<ul class="menu">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">RECOMMEND</a>
+				<ul class="submenu">
+					<li><a href="#">FILITER</a></li>
+					<li><a href="#">SEARCH RESULT</a></li>
+				</ul></li>
+			<li><a href="#">MY PAGE</a></li>
+		</ul>
+	</div>
+
+</body>
+</html>
